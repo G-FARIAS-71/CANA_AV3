@@ -4,7 +4,7 @@
 
 ## Problemática
 
-"O problema das oito damas é o problema matemático de dispor oito damas em um tabuleiro de xadrez de dimensão 8x8, de forma que nenhuma delas seja atacada por outra. Para tanto, é necessário que duas damas quaisquer não estejam numa mesma linha, coluna, ou diagonal. Este é um caso específico do Problema das n damas, no qual temos n damas e um tabuleiro com n×n casas(para qualquer n  ≥ 4). … O problema foi inicialmente proposto na revista Schachzeitung pelo enxadrista Max Bezzel em 1848, e ao longo dos anos foi avaliado por diversos matemáticos incluindo Gauss e Georg Cantor. A primeira solução foi proposta em 1850 por Franz Nauck, que também o generalizou para o Problema das n damas." [(Wikipédia, 2023)](https://pt.wikipedia.org/wiki/Problema_das_oito_damas)
+_"O problema das oito damas é o problema matemático de dispor oito damas em um tabuleiro de xadrez de dimensão 8x8, de forma que nenhuma delas seja atacada por outra. Para tanto, é necessário que duas damas quaisquer não estejam numa mesma linha, coluna, ou diagonal. Este é um caso específico do Problema das n damas, no qual temos n damas e um tabuleiro com n×n casas(para qualquer n  ≥ 4). … O problema foi inicialmente proposto na revista Schachzeitung pelo enxadrista Max Bezzel em 1848, e ao longo dos anos foi avaliado por diversos matemáticos incluindo Gauss e Georg Cantor. A primeira solução foi proposta em 1850 por Franz Nauck, que também o generalizou para o Problema das n damas."_ [(Wikipédia, 2023)](https://pt.wikipedia.org/wiki/Problema_das_oito_damas)
 
 ## Resolução
 
