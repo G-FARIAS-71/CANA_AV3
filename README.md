@@ -2,10 +2,10 @@
 
 ## Equipe
 
-- Guilherme Farias (2214635)
-- Gabriel
-- Lucas
-- Cabral
+- [Guilherme Farias (2214635)](https://github.com/G-FARIAS-71)
+- [Lucas Gradvohl (2217036)](https://github.com/LucasGradvohl)
+- [Gabriel Xavier (20148527)](https://github.com/gabrielxsmarinho)
+- [Cabral (2224609)](https://github.com/cabralski)
 
 ## Visão geral
 
@@ -27,7 +27,7 @@ Ao clicar em cada atividade abaixo, você será redirecionado ao documento conte
 
 | Integrante| Exercício(s) - Solução | Exercício(s) - Análise |
 |:---------:|:----------------------:|:----------------------:|
-|  Gabriel  |[Ordenação](atividades/1ordenacao/atividade.md)|[problema](analises/1ordenacao.md)|
-|   Lucas   |[Fibonacci](atividades/2fibonacci/atividade.md)|[problema](analises/2fibonacci.md)|
-|   Cabral  |[Oito damas](atividades/3oitodamas/atividade.md) e [Agendamento](atividades/4agendamento/atividade.md)|[problema](analises/3oitodamas.md)|
-| Guilherme |[Caixeiro-viajante](atividades/5caixeiroviajante/atividade.md)|[problema](analises/5caixeiroviajante.md)|
+|  Gabriel  |[Ordenação](atividades/1ordenacao/atividade.md)|[Fibonacci](analises/2fibonacci/analise.md)|
+|   Lucas   |[Fibonacci](atividades/2fibonacci/atividade.md)|[Ordenação](analises/1ordenacao/analise.md) e [Agendamento](analises/4agendamento/analise.md)|
+|   Cabral  |[Oito damas](atividades/3oitodamas/atividade.md) e [Agendamento](atividades/4agendamento/atividade.md)|[Caixeiro-viajante](analises/5caixeiroviajante/analise.md)|
+| Guilherme |[Caixeiro-viajante](atividades/5caixeiroviajante/atividade.md)|[Oito Damas](analises/3oitodamas/analise.md)|
