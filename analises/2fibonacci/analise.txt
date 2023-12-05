@@ -1,0 +1,53 @@
+Dividir e Conquistar
+											Análise:
+função fibonacci(n):							Custo           #vezes		Total			
+    se n igual a 0 ou n igual a 1:					c1		1		c1
+        retornar n							c2		1		c2
+    senão:								c3		1		c3
+        retornar fibonacci(n - 1) + fibonacci(n - 2)			c4	   T(n-1)+T(n-2)	c4*T(n-1)+c4*T(n-2)
+										   T(n)=T(n-1)+T(n-2)+1
+											Árvore de Recursão
+										   1				2^0
+									    T(n-1)   	T(n-2)			2^1
+   									T(n-2)	T(n-3) T(n-3) T(n-4)  		2^2
+										     ...			...
+								T(n-h)  ...		    ...	T(1)	T(0)	2^h
+										O ultimo nível ocorre quando n-h=0
+											n=h
+								T(n)=2^0+2^1+2^2+...2^n=1*2^(n+1)/(2-1)=2^n+1=2*2^n (Soma dos Termos de uma PG finita)
+										A partir de quando o valor de n for 0 em alguma folha,
+										os níveis abaixo vão diminuindo
+										Logo:
+											T(n)=O(2^n)
+											T(n)=θ(2^n)
+----------------------------------------------------				
+Top-Down
+											Análise		
+função fibonacci(n, memo = {}):						Custo		#vezes		Total
+    se n igual a 0 ou n igual a 1:					c1		1		  c1
+        retornar n							c2		1		  c2
+													
+    se n estiver em memo:						c3		1 (caso n>1)	  c3
+        retornar memo[n]						c4		1 (caso n>1)	  c4
+										
+    memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo)		c5		T(n-1)+T(n-2)     c5*T(n-1)+c5*T(n-2)		
+    retornar memo[n]							c6		1		  c6
+
+												T(n)=T(n-1)+T(n-2)+1	->Conforme o caso da Divisão e Conquista
+----------------------------------------------------							T(n)=O(2^n)
+													T(n)=θ(2^n)    
+Bottom-Up								
+									
+função fibonacci(n):							Custo     	#vezes		Total
+    se n igual a 0 ou n igual a 1:					 c1		  1		c1
+        retornar n							 c2		  1 		c2
+									
+    f = lista de tamanho (n + 1) preenchida com 0			 c3		  1		c3
+    f[0] = 0								 c4		  1		c4
+    f[1] = 1								 c5		  1		c5
+
+    para i de 2 a té n:							c6		  n		c6*n
+        f[i] = f[i - 1] + f[i - 2]					c7		  n-1		c7*n-c7
+
+    retornar f[n]							c8		  1		c8
+												T(n)=(c6+c7)*n+c1+c2+c3+c4+c5+c8=an+b=θ(n)
