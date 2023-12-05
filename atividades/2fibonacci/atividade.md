@@ -152,6 +152,8 @@ def fibonacci(n, memo = {}):
 
 </details>
 
+</details>
+
 <hr>
 
 ## Passo 5: 
