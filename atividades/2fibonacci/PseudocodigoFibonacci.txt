@@ -1,0 +1,38 @@
+Dividir e Conquistar
+
+função fibonacci(n):
+    se n igual a 0 ou n igual a 1:
+        retornar n
+    senão:
+        retornar fibonacci(n - 1) + fibonacci(n - 2)
+
+
+----------------------------------------------------
+Top-Down
+
+função fibonacci(n, memo = {}):
+    se n igual a 0 ou n igual a 1:
+        retornar n
+
+    se n estiver em memo:
+        retornar memo[n]
+
+    memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo)
+    retornar memo[n]
+
+
+----------------------------------------------------
+Bottom-Up
+
+função fibonacci(n):
+    se n igual a 0 ou n igual a 1:
+        retornar n
+
+    f = lista de tamanho (n + 1) preenchida com 0
+    f[0] = 0
+    f[1] = 1
+
+    para i de 2 a té n:
+        f[i] = f[i - 1] + f[i - 2]
+
+    retornar f[n]
