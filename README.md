@@ -28,6 +28,6 @@ Ao clicar em cada atividade abaixo, você será redirecionado ao documento conte
 | Integrante| Exercício(s) - Solução | Exercício(s) - Análise |
 |:---------:|:----------------------:|:----------------------:|
 |  Gabriel  |[Ordenação](atividades/1ordenacao/atividade.md)|[Fibonacci](analises/2fibonacci/analise.txt)|
-|   Lucas   |[Fibonacci](atividades/2fibonacci/atividade.md)|[Ordenação](analises/1ordenacao/analise.md) e [Agendamento](analises/4agendamento/analise.md)|
+|   Lucas   |[Fibonacci](atividades/2fibonacci/atividade.md)|[Ordenação](analises/1ordenacao/analise.txt) e [Agendamento](analises/4agendamento/analise.txt)|
 |   Cabral  |[Oito damas](atividades/3oitodamas/atividade.md) e [Agendamento](atividades/4agendamento/atividade.md)|[Caixeiro-viajante](analises/5caixeiroviajante/analise.md)|
 | Guilherme |[Caixeiro-viajante](atividades/5caixeiroviajante/atividade.md)|[Oito Damas](analises/3oitodamas/analise.md)|
